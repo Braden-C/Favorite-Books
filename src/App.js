@@ -8,7 +8,7 @@ function App() {
 
   const deleteBookById = (id) => {
     const updatedBooks = books.filter((book) => {
-      return book.id != id;
+      return book.id !== id;
     });
     setBooks(updatedBooks);
   };
